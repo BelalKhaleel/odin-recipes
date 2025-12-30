@@ -1,5 +1,5 @@
 .container {
-    max-width: 600px;
+    max-width: 650px;
     margin: 50px auto;
     border: 2px solid black;
     padding: 30px;
@@ -17,15 +17,12 @@ img {
     margin-bottom: 30px;
 }
 
-.ingredients-and-steps {
-    display: flex;
-    gap: 50px;
-}
-
 .ingredients {
     background-color: rgb(192,190,188);
     padding: 20px;
     border-radius: 10px;
+    vertical-align: top;
+    max-width: 200px;
 }
 
 .ingredients h2,
@@ -41,9 +38,16 @@ ul li {
     list-style: none;
 }
 
+.ingredients,
+.steps {
+    display: inline-block;
+}
+
 .steps {
     padding: 20px;
     border-left: 1px solid black;
+    max-width: 300px;
+    margin-left: 20px;
 }
 
 ol {
